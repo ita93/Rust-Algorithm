@@ -1,0 +1,1 @@
+You are given a set of integers. Determine whether or not this set can be divided into two subsets such that the sum of elements in each subset is equal.
