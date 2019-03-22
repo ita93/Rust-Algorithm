@@ -4,3 +4,8 @@ at first column but can be at any row. He can move only (right->,right up
 /,right down\) that is from a given cell, the miner can move to the cell
 diagonally up towards the right or right or diagonally down towards the right.
 Find out maximum amount of gold he can collect.
+
+SOLUTION: Create a 2d vector A.
+A[i][j] will be the maximum value can get if we take cell A[i][j] after it passed i-1
+previous columns
+So the maximum value of final A[0..n][m] will be the result that we are expecting.
